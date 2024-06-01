@@ -1,0 +1,10 @@
+{
+  "Name": "Rider Debugger Bug Repro",
+  "Author": "Alan",
+  "Version": "1.0.0",
+  "Description": "Just a repro project for a bug.",
+  "UniqueID": "DecidedlyHuman.RiderDebuggerBugRepro",
+  "EntryDll": "RiderLinuxRepro.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:????? "]
+}

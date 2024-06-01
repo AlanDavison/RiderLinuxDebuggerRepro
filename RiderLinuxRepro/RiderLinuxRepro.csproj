@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <LangVersion>12</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GamePath>/home/alan/.local/share/Steam/steamapps/common/Stardew Valley</GamePath>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.1.1" />
+    </ItemGroup>
+
+    <PropertyGroup Condition="'$(OS)' != 'Windows_NT'">
+        <!-- enable game debugging -->
+        <StartAction>Program</StartAction>
+        <StartProgram>$(GamePath)\StardewModdingAPI</StartProgram>
+        <StartWorkingDirectory>$(GamePath)</StartWorkingDirectory>
+    </PropertyGroup>
+
+</Project>
