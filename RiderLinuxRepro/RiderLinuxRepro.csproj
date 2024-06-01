@@ -13,7 +13,7 @@
     </ItemGroup>
 
     <PropertyGroup Condition="'$(OS)' != 'Windows_NT'">
-        <!-- enable game debugging -->
+        <!-- Adds a run configuration for the mod, because ModBuildConfig doesn't do so on Linux yet. -->
         <StartAction>Program</StartAction>
         <StartProgram>$(GamePath)\StardewModdingAPI</StartProgram>
         <StartWorkingDirectory>$(GamePath)</StartWorkingDirectory>
