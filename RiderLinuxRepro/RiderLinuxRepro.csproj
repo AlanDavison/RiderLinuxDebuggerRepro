@@ -5,7 +5,7 @@
         <LangVersion>12</LangVersion>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <GamePath>/home/alan/.local/share/Steam/steamapps/common/Stardew Valley</GamePath>
+        <GamePath>$(HOME)/.local/share/Steam/steamapps/common/Stardew Valley</GamePath>
     </PropertyGroup>
 
     <ItemGroup>
